@@ -1,0 +1,2 @@
+Logistic Regression - Accuracy: 0.8315, AUC: 0.8989
+Decision Tree - Accuracy: 0.7772, AUC: 0.8535

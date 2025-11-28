@@ -1,0 +1,19 @@
+feature,importance
+exang_True,0.36277237024210407
+chol,0.2251735080460673
+age,0.1033344106908693
+sex_Male,0.0667327899079452
+cp_atypical angina,0.06192217600371714
+thalch,0.05847367307236527
+trestbps,0.03495191654973332
+oldpeak,0.02743468585112015
+thal_normal,0.022990236619227278
+cp_non-anginal,0.017576927228102397
+restecg_st-t abnormality,0.011734599941063933
+ca,0.006902705847684657
+slope_flat,0.0
+slope_upsloping,0.0
+cp_typical angina,0.0
+restecg_normal,0.0
+fbs_True,0.0
+thal_reversable defect,0.0
