@@ -1,6 +1,6 @@
 # Heart Disease Prediction Project
 
-## 1. Task Objective
+## 1. Objective
 The primary objective of this project is to develop a machine learning model capable of predicting the risk of heart disease in patients based on their clinical health data. This involves:
 - Cleaning and preprocessing real-world medical data.
 - Performing Exploratory Data Analysis (EDA) to identify trends.
