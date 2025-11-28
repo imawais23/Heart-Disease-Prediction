@@ -17,7 +17,6 @@ st.set_page_config(
 )
 
 # Load Assets
-@st.cache_resource
 def load_assets():
     try:
         model = joblib.load(MODEL_PATH)
@@ -32,8 +31,14 @@ model, scaler = load_assets()
 st.title("❤️ Heart Disease Risk Predictor")
 st.markdown("Enter your health details below to get a risk assessment.")
 
+# Debugging Info
 if model is None:
     st.error("Error: Model files not found. Please run `main.py` first to train the model.")
+    st.write(f"Current Working Directory: {Path.cwd()}")
+    if (ROOT / "outputs").exists():
+        st.write(f"Files in outputs: {[f.name for f in (ROOT / 'outputs').iterdir()]}")
+    else:
+        st.write("outputs/ directory does not exist!")
     st.stop()
 
 # Input Form
